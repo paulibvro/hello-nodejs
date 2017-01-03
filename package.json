@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "deploy": "gcloud app deploy app.yaml",
+    "deploy": "gcloud app deploy app.yaml"
   },
   "author": "Spacetime",
   "license": "ISC",
