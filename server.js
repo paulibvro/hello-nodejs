@@ -11,11 +11,6 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
 
 
-app.use(function(req, res, next) {
-	console.log(`${req.method} request for '${req.url}'-${JSON.stringify(req.body)}`);
-	next();
-});
-
 app.use(express.static("./public"));
 
 app.use(cors());
